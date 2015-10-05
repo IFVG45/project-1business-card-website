@@ -129,6 +129,47 @@ main li{
 	max-width: 35rem;
 	margin: .5em auto;
 }
+
+
+.learn{
+	width: 100%;
+	background-color: #000;
+	text-align: center;
+	padding: .5em;
+	text-shadow: 4px 4px 10px black;
+	margin-bottom: 2em;
+	border-radius: 0.25em;
+}
+.learn a{
+	text-decoration: none;
+	color: white;
+}
+
+.number{
+	width: 100%;
+	background-color: #000;
+	text-align: center;
+	padding: .5em;
+	text-shadow: 4px 4px 10px black;
+	margin-bottom: 2em;
+	border-radius: 0.25em;
+}
+.number a{
+	text-decoration: none;
+	color: white;
+}
+.email{
+	width: 100%;
+	background-color: #000;
+	text-align: center;
+	padding: .5em;
+	margin-bottom: 2em;
+	border-radius: 0.25em;
+}
+.email a{
+	text-decoration: none;
+	color: white;
+}
 .button2{
 	display: inline;
 	background-color: #410098;
