@@ -11,9 +11,9 @@ html{
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
 	font-size : 1em;
-	font-family: raleway, sans-serif;
+	font-family: Lato, sans-serif;
 	line-height: 1;
-	background-color: #8b79a4;
+	background-color: #fdd55e;
 }
 *, *::before, *::after{
 	box-sizing: inherit;
@@ -35,6 +35,7 @@ header h1{
 	display: block;
 	height: 2.5em;
 	margin: 2em 0 0 0;
+	font-family: libre Baskerville, sans-serif;
 }
 header nav li {
 	list-style-type: none;
@@ -49,16 +50,12 @@ header nav ol{
 	padding: 0;
 	overflow: hidden;
 }
-header nav{
-	background-color: #993ebd;
-	margin-top: 1em;
-}
 header a{
 	text-decoration: none;
 	color: white;
 }
 .top {
-	background-image: url(../images/maerten.jpg);
+	background-image: url(../images/vacation-1.jpg);
 	margin: 0 -4%;
 	padding: 1em;
 	background-size: cover;
@@ -95,46 +92,10 @@ main img{
 h2{
 	text-align: center;
 	font-size: 1.3em;
-  color: #410098;
+  color: #000;
+	text-shadow:  4px 4px 10px black;
 }
-.learn{
-	width: 100%;
-	background-color: #410098;
-	text-align: center;
-	padding: .5em;
-	margin-bottom: 2em;
-	border-radius: 0.25em;
-}
-.learn a{
-	text-decoration: none;
-	color: white;
-}
-.button {
-	background-color: #410098;
-  border-radius: 0.5em;
-	padding: .4em;
-	color: white;
-	position: relative;
-	width: 30%;
-	text-align: center;
-	left: 33%;
-}
-.price{
-	width: 100%;
-	text-align: center;
-}
-.price div{
-	background-color: #410098;
-	padding: 1em 1em;
-	margin: 0.25em 0;
-	width: 100%;
-	display: inline-block;
-	border-radius: 0.25em;
-}
-.price a{
-	text-decoration: none;
-	color: white;
-}
+
 footer{
 	padding:0 5%;
 }
