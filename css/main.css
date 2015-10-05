@@ -69,20 +69,6 @@ header a{
 	margin: 0 auto;
 	max-width: 25rem;
 }
-.desc div{
-	display: inline-block;
-	width: 100%;
-	vertical-align: top;
-}
-.desc{
-	padding: 0;
-}
-.desc dt{
-	font-weight: bold;
-}
-.desc dl, .desc dd{
-	margin: 0;
-}
 main{
 	padding:0 3% 3% 3%;
 }
@@ -112,25 +98,6 @@ main li{
 	width: 108%;
 	text-shadow: 1px 2px 1px white;
 }
-.playing{
-	width: 100%;
-	background-color: black;
-	text-align: center;
-	padding: .5em;
-	margin-bottom: 0;
-	margin-left: 0%;
-	color: white;
-	margin-top:2em;
-}
-.pr{
-	text-align: center;
-}
-.pr p{
-	max-width: 35rem;
-	margin: .5em auto;
-}
-
-
 .learn{
 	width: 100%;
 	background-color: #000;
@@ -170,39 +137,16 @@ main li{
 	text-decoration: none;
 	color: white;
 }
-.button2{
-	display: inline;
-	background-color: #410098;
-	border-radius: 0.5em;
-	padding: .4em;
-	color: white;
-	position: relative;
-	text-shadow: none;
+
+.twitter {
+	background-color: #55acee;
+	background-image: url('../images/.jpg');
 }
-main a{
-	text-decoration: none;
-}
-.days ol{
-	width: 95%;
-	margin: 0;
-	padding: 0;
-}
-footer li{
-	display: inherit;
-}
-footer ul{
-	padding: 0;
-}
-footer ol{
-	display: block;
-	padding: 0;
-}
-footer p{
-	margin:0;
-}
-footer a{
-	color: #410098;
-}
+.linkedin {
+	margin-top: 1.3rem;
+	background-color: #0077B5;
+	background-image: url('../images/linked-in.jpg');
+
 @media only screen and (min-width: 20em){
 header nav a{
 	display: inline;
