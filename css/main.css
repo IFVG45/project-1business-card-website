@@ -27,7 +27,7 @@ header{
 }
 header img{
 	width: 125px;
-	position: absolute;
+	position: relative;
 	text-align: center;
   left: calc(50% - 52.5px);
 }
@@ -37,43 +37,12 @@ header h1{
 	margin: 2em 0 0 0;
 	font-family: libre Baskerville, sans-serif;
 }
-header nav li {
-	list-style-type: none;
+
+main p{
+	margin: 0 1.3rem 1.3rem 1.3rem;
 }
-header nav a {
-	display: inline;
-	padding: .5em;
-	text-align: center;
-}
-header nav ol{
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-header a{
-	text-decoration: none;
-	color: white;
-}
-.top {
-	background-image: url(../images/vacation-1.jpg);
-	margin: 0 -4%;
-	padding: 1em;
-	background-size: cover;
-}
-.top p{
-	top: -6rem;
-	color: white;
-	text-align: center;
-	width: 100%;
-	text-shadow: 4px 4px 10px white;
-	margin: 0 auto;
-	max-width: 25rem;
-}
-main{
-	padding:0 3% 3% 3%;
-}
-main img{
-	width: 100%;
+.margin{
+	margin: 0 1.3rem;
 }
 h2{
 	text-align: center;
@@ -85,11 +54,10 @@ h2{
 footer{
 	padding:0 5%;
 }
-main li{
-	display: inline;
-}
-.top2{
-	background-image: url(../images/Maroti.jpg);
+
+
+.top{
+	background-image: url(../images/IFVG23.jpg);
 	margin: 0 -4%;
 	padding: 3.9em;
 	background-size: cover;
@@ -97,24 +65,25 @@ main li{
 	text-align: center;
 	width: 108%;
 	text-shadow: 1px 2px 1px white;
+	font-size:
 }
-.learn{
-	width: 100%;
-	background-color: #000;
-	text-align: center;
-	padding: .5em;
-	text-shadow: 4px 4px 10px black;
-	margin-bottom: 2em;
-	border-radius: 0.25em;
-}
-.learn a{
-	text-decoration: none;
-	color: white;
-}
+ .learn{
+	 width: 100%;
+	 background-color: #ffc700;
+	 text-align: center;
+	 padding: .5em;
+	 margin-bottom: 2em;
+	 text-shadow: 4px 4px 10px black;
+	 border-radius: 0.25em;
+	}
+	.learn a{
+	 text-decoration: none;
+	 color: white;
+	}
 
 .number{
 	width: 100%;
-	background-color: #000;
+	background-color: #ffc700;
 	text-align: center;
 	padding: .5em;
 	text-shadow: 4px 4px 10px black;
@@ -127,11 +96,12 @@ main li{
 }
 .email{
 	width: 100%;
-	background-color: #000;
+	background-color: #ffc700;
 	text-align: center;
 	padding: .5em;
 	margin-bottom: 2em;
 	border-radius: 0.25em;
+	text-shadow: 4px 4px 10px black;
 }
 .email a{
 	text-decoration: none;
