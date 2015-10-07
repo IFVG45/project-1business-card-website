@@ -27,9 +27,12 @@ header{
 }
 
 header h1{
-	display: block;
-	height: 2.5em;
-	margin: 2em 0 0 0;
+	height: 1em;
+	position: relative;
+	top: -150px;
+	left:.5px;
+	font-size: 4.5em;
+	text-shadow:  4px 4px 10px white;
 	font-family: libre Baskerville, sans-serif;
 }
 
