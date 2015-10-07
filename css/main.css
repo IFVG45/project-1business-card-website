@@ -25,12 +25,7 @@ header{
 	text-align: center;
 	padding-top: 1em;
 }
-header img{
-	width: 125px;
-	position: relative;
-	text-align: center;
-  left: calc(50% - 52.5px);
-}
+
 header h1{
 	display: block;
 	height: 2.5em;
@@ -51,22 +46,30 @@ h2{
 	text-shadow:  4px 4px 10px black;
 }
 
-footer{
-	padding:0 5%;
-}
-
-
-.top{
-	background-image: url(../images/IFVG23.jpg);
-	margin: 0 -4%;
-	padding: 3.9em;
+.img {
+	background-image: url('../images/IFVG23.jpg');
+	height: 17rem;
+	margin: 1.3rem;
 	background-size: cover;
+	background-position: 0;
 	color: black;
 	text-align: center;
-	width: 108%;
+	width: 85%;
 	text-shadow: 1px 2px 1px white;
-	font-size:
+	position:relative;
+	bottom: -3em;
 }
+
+.divider2{
+	height: 17rem;
+	margin: 1.3rem;
+	color: black;
+	text-align: center;
+	width: 85%;
+	text-shadow: 1px 2px 1px white;
+	position:absolute;
+}
+
  .learn{
 	 width: 100%;
 	 background-color: #ffc700;
@@ -108,9 +111,9 @@ footer{
 	color: white;
 }
 
-.twitter {
+.tumblr {
 	background-color: #55acee;
-	background-image: url('../images/.jpg');
+	background-image: url('../images/tumblr.jpg');
 }
 .linkedin {
 	margin-top: 1.3rem;
@@ -184,144 +187,72 @@ h3{
 }
 
 
-@media only screen and (min-width: 35em){
+@media only screen and (min-width: 36em){
 
-html{
-	font-size: 110%;
-	line-height: 1.4;
-}
+	html{
+		font-size: 110%;
+		line-height: 1.4;
+	}
+	.img {
+		background-image: url('../images/portrait.jpg');
+		height: 22.5rem;
+		margin: 1.4rem  20%;
+	}
+	h1 {
+		line-height: 2.8rem;
+		margin: 1.4rem 1.4rem 1.4rem 20%;
+	}
+	main p{
+		margin: 0 20% 1.4rem 20%;
+	}
+	.margin{
+		margin: 0 20%;
+	}
+	.twitter {
+		margin: 1.4rem 20% 20% auto;
+		background-color: #55acee;
+		background-image: url('../images/twitter.png');
+		float: right;
+	}
+	.linkedin {
+		margin: 1.4rem auto 20% 20%;
+		background-color: #0077B5;
+		background-image: url('../images/linkedin.png');
+		float: left;
+	}
+	.button {
+		background-repeat: no-repeat;
+		background-position: center center;
+		height: 7.5rem;
+		width: 28.125%;
+	}
+
+	}
 
 @media only screen and (min-width: 50em){
-  main{
-    float: right;
-    width: 70%;}
-    footer {
-      float: right;
-      width: 70%;
-    }
-  header {
-  width:30%;
-  float: left;
-  position: relative;
-  }
-
-  header nav a{
-  display: inline;
-  padding: .5em;
-  text-align: left;
-  float: none;
-  }
-  .top p{
-  top: -8rem;
-  }
-  .top {
-  padding: 2em 3.5em;
-  margin: 0;
-  }
-  .button{
-		display: block;
- position: relative;
- top: 1.35em;
- right: 1em;
- left: 79%;
- width: auto;
- padding: 0.25em .75em;
- left: auto;
+	.img {
+	background-image: url('../images/portrait.jpg');
+	height: 18.1rem;
+	margin: 0 0 1.5rem 0;
+	background-position: 0 40%;
 }
-
-  header img{
-  width: 125px;
-  position: absolute;
-  text-align: center;
-  left: calc(50% - 52.5px);
-  }
-  .top2{
-  width: 100%;
-  }
-
-  header h1{
-  display: inline-block;
-  height: 4em;
-  margin: 2em 0 0 0;
-  margin-top: 2.35em;
-  }
-  header nav li {
-  margin-left: 5%;
-  }
-
-.divider1{
-width: 47%;
-margin: 0;
-float: left;
-clear: left;
+html{
+	font-size: 120%;
+	line-height: 1.5;
 }
-.divider2{
-width: 47%;
-margin: 0;
-float: right;
+main p{
+	max-width:40em;
+	margin: 0 auto 1.5rem auto;
 }
-.divider3{
-width: 47%;
-margin: 0;
-float: left;
-margin-left: 26.5%;
+h1 {
+	line-height: 3rem;
+	margin: 1.5rem auto 1.5rem auto;
+	max-width:40em;
+	margin-left: calc(50% - 10em);
 }
-h2 {
-	clear: both;
+.margin{
+	margin-left: calc(50% - 20em);
 }
-footer nav a{
-	display: inline;
-	width: 20%;
-	float: left;
-	padding: .5em;
-	text-align: center;
-}
-footer nav a {
-	display: block;
-	padding: .5em;
-	text-align: left;
-}
-footer nav ol{
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-footer nav{
-	background-color: #212c59;
-	display: inline-block;
-	width: 100%;
-	margin-top: 0;
-}
-footer nav a{
-	text-decoration: none;
-	color: white;
-	text-align: center;
-}
-footer {
-padding: 0;}
-.fr{
-	padding: 0 4%;
-}
-footer nav ul{
-	padding: 0 2em;
-	margin: 0;
-}
-
-.desc div{
-	display: inline-block;
-	width: 100%;
-	vertical-align: top;
-}
-.desc{
-	padding: 0;
-}
-.desc dt{
-	font-weight: bold;
-}
-.desc dl, .desc dd{
-	margin: 0;
-}
-
 }
 
 */style all the small screen stuff here*/
@@ -411,7 +342,7 @@ header h1{
 header nav li {
 margin-left: 5%;
 }
-}
+
 
 
 
