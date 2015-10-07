@@ -44,7 +44,7 @@ main p{
 }
 h2{
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 1.7em;
   color: #000;
 	text-shadow:  4px 4px 10px black;
 }
@@ -64,23 +64,25 @@ h2{
 }
 
 .divider2{
-	height: 17rem;
+	height: 16rem;
 	margin: 1.3rem;
 	color: black;
 	text-align: center;
 	width: 85%;
 	text-shadow: 1px 2px 1px white;
-	position:absolute;
+
 }
 
  .learn{
-	 width: 100%;
+	 width: 80%;
 	 background-color: #ffc700;
 	 text-align: center;
 	 padding: .5em;
 	 margin-bottom: 2em;
 	 text-shadow: 4px 4px 10px black;
 	 border-radius: 0.25em;
+	 position: relative;
+	 top: 759px;
 	}
 	.learn a{
 	 text-decoration: none;
@@ -88,32 +90,35 @@ h2{
 	}
 
 .number{
-	width: 100%;
+	width: 80%;
 	background-color: #ffc700;
 	text-align: center;
 	padding: .5em;
 	text-shadow: 4px 4px 10px black;
 	margin-bottom: 2em;
 	border-radius: 0.25em;
+	position: relative;
+	top: 638px;
 }
 .number a{
 	text-decoration: none;
 	color: white;
 }
 .email{
-	width: 100%;
+	width: 80%;
 	background-color: #ffc700;
 	text-align: center;
 	padding: .5em;
 	margin-bottom: 2em;
 	border-radius: 0.25em;
 	text-shadow: 4px 4px 10px black;
+	position: relative;
+	top: 678px;
 }
 .email a{
 	text-decoration: none;
 	color: white;
 }
-
 
 .tumblr {
 	background-color: #55acee;
@@ -123,73 +128,7 @@ h2{
 	margin-top: 1.3rem;
 	background-color: #0077B5;
 	background-image: url('../images/linked-in.jpg');
-
-@media only screen and (min-width: 20em){
-header nav a{
-	display: inline;
-	width: 25%;
-	float: left;
-	padding: .5em;
-	text-align: center;
-  font-size: 110%;
 }
-.top p{
-	top: -8rem;
-}
-.top {
-	padding: 2em 3.5em;
-	margin: 0 -6%;
-}
-.button{
-	display: inline;
-	color: white;
-	position: absolute;
-	top: .8em;
-	right: .35em;
-	left: 79%;
-	width: auto;
-	padding: 0.25em .75em;
-	left: auto;
-}
-header img{
-	width: 85px;
-	top: .4em;
-	left: .25em;
-}
-header h1{
-	margin: 0em 2.2em;
-	height: 1em;
-  font-size: 110%;
-}
-main{
-	padding:0 5% 5% 5%;
-}
-h2{
-	font-size: 1.5em;
-}
-.desc div{
-	width: 32%;
-	text-align: center;
-}
-.days ol{
-	width: 55%;
-  text-align: left;
-}
-.price div{
-	margin: 0 2.5%;
-	width: 44%;
-}
-.top2 {
-    margin: 0%;
-    width: 100%;
-}
-
-h3{
-  color: #410098;
-
-}
-}
-
 
 @media only screen and (min-width: 36em){
 
@@ -198,7 +137,7 @@ h3{
 		line-height: 1.4;
 	}
 	.img {
-		background-image: url('../images/portrait.jpg');
+		background-image: url('../images/IFVG23.jpg');
 		height: 22.5rem;
 		margin: 1.4rem  20%;
 	}
@@ -234,46 +173,8 @@ h3{
 	}
 
 @media only screen and (min-width: 50em){
-	.img {
-	background-image: url('../images/portrait.jpg');
-	height: 18.1rem;
-	margin: 0 0 1.5rem 0;
-	background-position: 0 40%;
-}
-html{
-	font-size: 120%;
-	line-height: 1.5;
-}
-main p{
-	max-width:40em;
-	margin: 0 auto 1.5rem auto;
-}
-h1 {
-	line-height: 3rem;
-	margin: 1.5rem auto 1.5rem auto;
-	max-width:40em;
-	margin-left: calc(50% - 10em);
-}
-.margin{
-	margin-left: calc(50% - 20em);
-}
-}
 
-*/style all the small screen stuff here*/
 
-h3 + dt {
-font-size: 1.2rem;
-}
-
-header{
-	  background-color: #9a78b6;
-		padding:1em;
-}
-
-main{
-	background-color: #878fc7;
- padding: 1em;
-}
 
 @media only screen and (min-width: 60em){
 html{
