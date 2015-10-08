@@ -13,7 +13,7 @@ html{
 	font-size : 1em;
 	font-family: Lato, sans-serif;
 	line-height: 1.3em;
-	background-color: #fdd55e;
+	background-color: #fed757;
 }
 *, *::before, *::after{
 	box-sizing: inherit;
@@ -21,8 +21,18 @@ html{
 body{
 	margin: 0;
 }
+
+h3{
+	text-align: center;
+	font-size: 1.7em;
+	color: #000;
+	text-shadow:  4px 4px 10px black;
+	margin:4%;
+}
+
 header{
 	text-align: center;
+	padding-top: 1em;
 }
 
 header h1{
@@ -30,18 +40,44 @@ header h1{
 	position: relative;
 	top: -150px;
 	left:.5px;
-	font-size: 4.5em;
+	font-size: 9.5em;
 	text-shadow:  4px 4px 10px white;
 	font-family: libre Baskerville, sans-serif;
 }
 
-main p{
-	margin: 0 1.3rem 1.3rem 1.3rem;
+.img{
+	background-image: url(../images/IFVG23.jpg);
+	margin: 0 -4%;
+		padding: 9em;
+	background-size: cover;
 }
 
-.margin{
-	margin: 0 1.3rem;
+.desc div{
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
 }
+strong{
+	text-align: center;
+	font-size: 1em;
+	color: #000;
+	text-shadow:  4px 4px 10px white;
+	position: relative;
+	bottom:80px;
+	left:152px;
+}
+.desc{
+	padding: 0;
+}
+
+.desc dl, .desc dd{
+	margin: 0;
+}
+
+main img{
+	width: 100%;
+}
+
 h2{
 	text-align: center;
 	font-size: 1.7em;
@@ -50,142 +86,237 @@ h2{
 	margin:4%;
 }
 
-strong{
+.learn button{
+	width: 100%;
+	background-color: #ffc72c;
 	text-align: center;
-	font-size: 1em;
-	color: #000;
-	text-shadow:  4px 4px 10px black;
-	position: relative;
-	bottom:180px;
-	left:145px;
+	padding: .5em;
+	margin-bottom: 2em;
+	border-radius: 0.25em;
+}
+.learn a{
+	text-decoration: none;
+	color: white;
 }
 
-.img {
-	background-image: url('../images/IFVG23.jpg');
-	height: 17rem;
-	margin: 1.3rem;
+footer{
+	padding:0 5%;
+}
+main li{
+	display: inline;
+}
+
+main a{
+	text-decoration: none;
+}
+
+footer li{
+	display: inherit;
+}
+footer ul{
+	padding: 0;
+}
+footer ol{
+	display: block;
+	padding: 0;
+}
+footer p{
+	margin:0;
+}
+footer a{
+	color: #410098;
+}
+@media only screen and (min-width: 20em){
+
+.top p{
+	top: -8rem;
+}
+.top {
+	padding: 2em 3.5em;
+	margin: 0 -6%;
+}
+
+header h1{
+	margin: 0em 2.2em;
+	height: 1em;
+  font-size: 110%;
+}
+main{
+	padding:0 5% 5% 5%;
+}
+h2{
+	font-size: 1.7em;
+}
+
+.img{
+	background-image: url(../images/IFVG23.jpg);
+	margin: 0 -4%;
+	padding: 9em;
 	background-size: cover;
-	background-position: 0;
-	color: black;
+}
+
+.desc div{
+	width: 32%;
 	text-align: center;
-	width: 85%;
-	text-shadow: 1px 2px 1px white;
-	position:relative;
-	bottom: -3em;
 }
 
-.divider2{
-	height: 16rem;
-	margin: 1.3rem;
-	color: black;
-	text-align: center;
-	width: 85%;
-	text-shadow: 1px 2px 1px white;
+h3{
+  color: #000;
 
 }
 
- .learn{
-	 width: 80%;
-	 background-color: #ffc700;
-	 text-align: center;
-	 padding: .5em;
-	 margin-bottom: 2em;
-	 text-shadow: 4px 4px 10px black;
-	 border-radius: 0.25em;
-	 position: relative;
-	 top: 759px;
-	}
-	.learn a{
-	 text-decoration: none;
-	 color: white;
-	}
-
-.number{
-	width: 80%;
-	background-color: #ffc700;
-	text-align: center;
-	padding: .5em;
-	text-shadow: 4px 4px 10px black;
-	margin-bottom: 2em;
-	border-radius: 0.25em;
-	position: relative;
-	top: 638px;
-}
-.number a{
-	text-decoration: none;
-	color: white;
-}
-.email{
-	width: 80%;
-	background-color: #ffc700;
-	text-align: center;
-	padding: .5em;
-	margin-bottom: 2em;
-	border-radius: 0.25em;
-	text-shadow: 4px 4px 10px black;
-	position: relative;
-	top: 678px;
-}
-.email a{
-	text-decoration: none;
-	color: white;
 }
 
-.tumblr {
-	background-color: #55acee;
-	background-image: url('../images/tumblr.jpg');
+
+@media only screen and (min-width: 35em){
+
+html{
+	font-size: 110%;
+	line-height: 1.3rem;
 }
-.linkedin {
-	margin-top: 1.3rem;
-	background-color: #0077B5;
-	background-image: url('../images/linked-in.jpg');
-}
-
-@media only screen and (min-width: 36em){
-
-	html{
-		font-size: 110%;
-		line-height: 1.4;
-	}
-	.img {
-		background-image: url('../images/IFVG23.jpg');
-		height: 22.5rem;
-		margin: 1.4rem  20%;
-	}
-	h1 {
-		line-height: 2.8rem;
-		margin: 1.4rem 1.4rem 1.4rem 20%;
-	}
-	main p{
-		margin: 0 20% 1.4rem 20%;
-	}
-	.margin{
-		margin: 0 20%;
-	}
-	.twitter {
-		margin: 1.4rem 20% 20% auto;
-		background-color: #55acee;
-		background-image: url('../images/twitter.png');
-		float: right;
-	}
-	.linkedin {
-		margin: 1.4rem auto 20% 20%;
-		background-color: #0077B5;
-		background-image: url('../images/linkedin.png');
-		float: left;
-	}
-	.button {
-		background-repeat: no-repeat;
-		background-position: center center;
-		height: 7.5rem;
-		width: 28.125%;
-	}
-
-	}
 
 @media only screen and (min-width: 50em){
+  main{
+    float: right;
+    width: 70%;}
+    footer {
+      float: right;
+      width: 70%;
+    }
+  header {
+  width:30%;
+  float: left;
+  position: relative;
+  }
 
+  header nav a{
+  display: inline;
+  padding: .5em;
+  text-align: left;
+  float: none;
+  }
+  .top p{
+  top: -8rem;
+  }
+  .top {
+  padding: 2em 3.5em;
+  margin: 0;
+  }
+  .button{
+		display: block;
+ position: relative;
+ top: 1.35em;
+ right: 1em;
+ left: 79%;
+ width: auto;
+ padding: 0.25em .75em;
+ left: auto;
+}
 
+  header img{
+  width: 125px;
+  position: absolute;
+  text-align: center;
+  left: calc(50% - 52.5px);
+  }
+  .top2{
+  width: 100%;
+  }
+
+  header h1{
+  display: inline-block;
+  height: 4em;
+  margin: 2em 0 0 0;
+  margin-top: 2.35em;
+  }
+  header nav li {
+  margin-left: 5%;
+  }
+
+.divider1{
+width: 47%;
+margin: 0;
+float: left;
+clear: left;
+}
+.divider2{
+width: 47%;
+margin: 0;
+float: right;
+}
+.divider3{
+width: 47%;
+margin: 0;
+float: left;
+margin-left: 26.5%;
+}
+h2 {
+	clear: both;
+}
+footer nav a{
+	display: inline;
+	width: 20%;
+	float: left;
+	padding: .5em;
+	text-align: center;
+}
+footer nav a {
+	display: block;
+	padding: .5em;
+	text-align: left;
+}
+footer nav ol{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+footer nav{
+	background-color: #212c59;
+	display: inline-block;
+	width: 100%;
+	margin-top: 0;
+}
+footer nav a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+footer {
+padding: 0;}
+.fr{
+	padding: 0 4%;
+}
+footer nav ul{
+	padding: 0 2em;
+	margin: 0;
+}
+
+.desc div{
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+}
+.desc{
+	padding: 0;
+}
+
+}
+
+*/style all the small screen stuff here*/
+
+h3 + dt {
+font-size: 1.2rem;
+}
+
+header{
+	  background-color: #9a78b6;
+		padding:1em;
+}
+
+main{
+	background-color: #878fc7;
+ padding: 1em;
+}
 
 @media only screen and (min-width: 60em){
 html{
@@ -258,7 +389,7 @@ header h1{
 header nav li {
 margin-left: 5%;
 }
-
+}
 
 
 
