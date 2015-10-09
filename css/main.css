@@ -100,22 +100,24 @@ main p{
 	color:#000;
 }
 
-.insta {
-	background-image: url('../images/insta.svg');
+ul li {
+float:left;
+display:block;
 }
-.linkedin button {
-	margin-top: 1.3rem;
-	background-image: url('../images/linked-in.svg');
-}
-.tumblr button{
-	margin-top: 1.3rem;
-	background-image: url('../images/tumblr.svg');
-}
-.button {
-	background-repeat: no-repeat;
-	background-position: center center;
-	height: 5.2rem;
-}
+
+.icons {
+display:block;
+float:left;
+margin-right:5px;
+margin-bottom: 5px;
+text-indent:-9999px;
+width:78px;
+height:67px;
+opacity:0.3;
+filter: alpha(opacity = 30);
+background: url({{ 'social-icons-light-bg.png' | asset_url }}) no-repeat;
+  }
+
 
 h3{
 	text-align: center;
@@ -124,6 +126,33 @@ h3{
 	text-shadow:  4px 4px 10px black;
 	position: relative;
 	margin:4%;
+}
+
+
+.learn{
+	width: 100%;
+	background-color: #0091b3;
+	text-align: center;
+	padding: .2em;
+	margin-bottom: 2em;
+	border-radius: 0.25em;
+}
+.learn a{
+	text-decoration: none;
+	color: white;
+}
+
+.learn2{
+	width: 100%;
+	background-color: #0091b3;
+	text-align: center;
+	padding: .2em;
+	margin-bottom: 2em;
+	border-radius: 0.25em;
+}
+.learn2 a{
+	text-decoration: none;
+	color: white;
 }
 
 @media only screen and (min-width: 36em){
@@ -158,6 +187,35 @@ h1 {
 	top:-10px;
 	left:280px;
 
+}
+
+.learn{
+	width: 100%;
+	background-color: #0091b3;
+	text-align: center;
+	padding:.4em;
+	border-radius: 0.5em;
+	position: absolute;
+	bottom: -466px;
+}
+.learn a{
+	text-decoration: none;
+	color: white;
+}
+
+.learn2{
+	width: 100%;
+	background-color: #0091b3;
+	text-align: center;
+	padding: .2em;
+	margin-bottom: 2em;
+	position: absolute;
+	border-radius: 0.25em;
+	bottom: -425px;
+}
+.learn2 a{
+	text-decoration: none;
+	color: white;
 }
 
 header img{
@@ -205,6 +263,17 @@ width: 100%;
 vertical-align: top;
 }
 
+h3{
+	text-align: center;
+	font-size: 1.7em;
+	color: #fff;
+	text-shadow:  4px 4px 10px black;
+	position: relative;
+	top:198px;
+	right:52px;
+	margin:4%;
+}
+
 }
 
 @media only screen and (min-width: 62.5em){
@@ -212,7 +281,7 @@ vertical-align: top;
 	background-image: url('../images/IFVG23.jpg');
 	height: 18.1rem;
 	margin: 0 0 1.5rem 0;
-	background-position: 0 40%;
+	background-position: 120%;
 }
 html{
 	font-size: 120%;
@@ -228,6 +297,8 @@ h1 {
 	max-width:40em;
 	margin-left: calc(50% - 5.75em);
 	font-size: 1.9rem;
+	position:relative;
+	top: 44px;
 }
 .margin{
 	margin-left: calc(50% - 20em);
@@ -242,6 +313,31 @@ h1 {
 .linkedin {
 	margin: 1.5rem auto 0 calc(50% - 20em);
 	}
+	.divider1{
+		width: 10%;
+		margin: 0;
+		float: left;
+		clear: left;
+		}
+		.divider2{
+		width: 20%;
+		margin: 0;
+		float: left;
+		clear:right;
+		}
+		.divider3{
+		width: 10%;
+		margin: 0;
+		float:right;
+		clear:right;
+		}
+
+		.divider4{
+		width: 10%;
+		margin: 0;
+		float: right;
+		clear:right;
+		}
 }
 @media print{
 .img {
