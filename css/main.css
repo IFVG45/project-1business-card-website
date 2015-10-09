@@ -107,20 +107,20 @@ display:block;
 
 .insta {
   width: 85%;
-  margin: 1em 1em 2em 3em;
+	margin: 1em 3em 2em 1em;
   float: left;
 	position: absolute;
-	top:1582px;
-	left:15px;
+	top:1390px;
+	left:35px;
 }
 
 .tumblr {
   width: 35%;
-  margin: 1em 3em 2em 1em;
+	margin: 1em 3em 2em 1em;
   float: right;
 	position: absolute;
-	top:1685px;
-	left:98px;
+	top:1467px;
+	left:23px;
 }
 
 
@@ -129,8 +129,8 @@ display:block;
   margin: 1em 3em 2em 1em;
   float: right;
 	position: absolute;
-	top:1689px;
-	left:23px;
+	top:1467px;
+	left:56px;
 }
 
 
@@ -175,8 +175,8 @@ h4{
 	color: #fff;
 	text-shadow:  4px 4px 10px black;
 	position: relative;
-	top:278px;
-	right:49px;
+	top:80px;
+	right:12px;
 	margin:4%;
 }
 @media only screen and (min-width: 36em){
@@ -307,22 +307,6 @@ h4{
 	top:265px;
 	left:45px;
 	margin:4%;
-}
-.center {
-  text-align: center;
-
-}
-
-.social {
-  text-decoration: none;
-}
-.wrapper {
-  max-width: 30em;
-  margin: 0 auto;
-}
-
-footer {
-  padding-bottom: 1em;
 }
 
 .insta {
