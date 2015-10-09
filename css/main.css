@@ -308,7 +308,22 @@ h4{
 	left:45px;
 	margin:4%;
 }
+.center {
+  text-align: center;
 
+}
+
+.social {
+  text-decoration: none;
+}
+.wrapper {
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+footer {
+  padding-bottom: 1em;
+}
 
 .insta {
   width: 88%;
