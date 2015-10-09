@@ -169,7 +169,16 @@ h3{
 	text-decoration: none;
 	color: white;
 }
-
+h4{
+	text-align: center;
+	font-size: 1.7em;
+	color: #fff;
+	text-shadow:  4px 4px 10px black;
+	position: relative;
+	top:278px;
+	right:49px;
+	margin:4%;
+}
 @media only screen and (min-width: 36em){
 html{
 	font-size: 110%;
@@ -211,7 +220,7 @@ h1 {
 	padding:.4em;
 	border-radius: 0.5em;
 	position: absolute;
-	bottom: -466px;
+	bottom: -523px;
 }
 .learn a{
 	text-decoration: none;
@@ -226,7 +235,7 @@ h1 {
 	margin-bottom: 2em;
 	position: absolute;
 	border-radius: 0.25em;
-	bottom: -425px;
+	bottom: -445px;
 }
 .learn2 a{
 	text-decoration: none;
@@ -284,10 +293,51 @@ h3{
 	color: #fff;
 	text-shadow:  4px 4px 10px black;
 	position: relative;
-	top:198px;
-	right:52px;
+	top:213px;
+	right:49px;
 	margin:4%;
 }
+
+h4{
+	text-align: center;
+	font-size: 1.7em;
+	color: #fff;
+	text-shadow:  4px 4px 10px black;
+	position: relative;
+	top:265px;
+	left:45px;
+	margin:4%;
+}
+
+
+.insta {
+  width: 88%;
+  margin: 1em 1em 2em 3em;
+  float: left;
+	position: absolute;
+	top:1120px;
+	left:15px;
+}
+
+.tumblr {
+  width: 34%;
+  margin: 1em 3em 2em 1em;
+  float: right;
+	position: absolute;
+	top:1298px;
+	left:123px;
+}
+
+
+.linked-in {
+  width: 45%;
+  margin: 1em 3em 2em 1em;
+  float: right;
+	position: absolute;
+	top:1297px;
+	left:278px;
+}
+
 
 }
 
@@ -363,6 +413,7 @@ h1 {
 			position: absolute;
 			bottom:-456px;
 			border-radius: 0.25em;
+			position: absolute;
 		}
 		.learn a{
 			text-decoration: none;
@@ -376,6 +427,7 @@ h1 {
 			padding: .2em;
 			margin-bottom: 2em;
 			border-radius: 0.25em;
+			position: absolute;
 		}
 		.learn2 a{
 			text-decoration: none;
@@ -388,5 +440,42 @@ h1 {
 }
 main p {
 	min-width: 30em;
+	img {
+width: 78%;
+float: left;
+}
+
+h1 {
+  color: white;
+  float: left;
+  font-size: 4em;
+  margin: 1em;
+  position: fixed;
+  top: 350px;
+}
+
+.p1 {
+  float: left;
+  width: 50%;
+  margin: 1em;
+  position: fixed;
+  left: 6px;
+  bottom: 0px;
+}
+
+.p2 {
+  float: right;
+  width: 50%;
+  margin: 1em;
+  position: fixed;
+  left: 310px;
+  bottom: 20px;
+}
+
+footer {
+  display: none;
+}
+
+}
 }
 }
