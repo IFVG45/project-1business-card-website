@@ -105,18 +105,33 @@ float:left;
 display:block;
 }
 
-.icons {
-display:block;
-float:left;
-margin-right:5px;
-margin-bottom: 5px;
-text-indent:-9999px;
-width:78px;
-height:67px;
-opacity:0.3;
-filter: alpha(opacity = 30);
-background: url({{ 'social-icons-light-bg.png' | asset_url }}) no-repeat;
-  }
+.insta {
+  width: 85%;
+  margin: 1em 1em 2em 3em;
+  float: left;
+	position: absolute;
+	top:1582px;
+	left:15px;
+}
+
+.tumblr {
+  width: 35%;
+  margin: 1em 3em 2em 1em;
+  float: right;
+	position: absolute;
+	top:1685px;
+	left:98px;
+}
+
+
+.linked-in {
+  width: 45%;
+  margin: 1em 3em 2em 1em;
+  float: right;
+	position: absolute;
+	top:1689px;
+	left:23px;
+}
 
 
 h3{
@@ -131,7 +146,7 @@ h3{
 
 .learn{
 	width: 100%;
-	background-color: #0091b3;
+	background-color: #7adbd5;
 	text-align: center;
 	padding: .2em;
 	margin-bottom: 2em;
@@ -144,7 +159,7 @@ h3{
 
 .learn2{
 	width: 100%;
-	background-color: #0091b3;
+	background-color: #7adbd5;
 	text-align: center;
 	padding: .2em;
 	margin-bottom: 2em;
@@ -191,7 +206,7 @@ h1 {
 
 .learn{
 	width: 100%;
-	background-color: #0091b3;
+	background-color: #7adbd5;
 	text-align: center;
 	padding:.4em;
 	border-radius: 0.5em;
@@ -205,7 +220,7 @@ h1 {
 
 .learn2{
 	width: 100%;
-	background-color: #0091b3;
+	background-color: #7adbd5;
 	text-align: center;
 	padding: .2em;
 	margin-bottom: 2em;
@@ -337,6 +352,34 @@ h1 {
 		margin: 0;
 		float: right;
 		clear:right;
+		}
+
+		.learn{
+			width: 100%;
+			background-color: #7adbd5;
+			text-align: center;
+			padding: .2em;
+			margin-bottom: 2em;
+			position: absolute;
+			bottom:-456px;
+			border-radius: 0.25em;
+		}
+		.learn a{
+			text-decoration: none;
+			color: white;
+		}
+
+		.learn2{
+			width: 100%;
+			background-color: #7adbd5;
+			text-align: center;
+			padding: .2em;
+			margin-bottom: 2em;
+			border-radius: 0.25em;
+		}
+		.learn2 a{
+			text-decoration: none;
+			color: white;
 		}
 }
 @media print{
