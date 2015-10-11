@@ -39,7 +39,7 @@ h1 {
 	margin: 1.3rem;
 	height: 1em;
 	top: 98px;
-	left:23px;
+	left:32px;
   position: absolute;
 	font-size: 8rem;
 	text-shadow:  5px 5px 10px #7b303e;
@@ -260,13 +260,27 @@ main p{
 	margin: 0 auto 1.5rem auto;
 }
 h1 {
-	line-height: 1.3rem;
-	margin: 1.5rem auto 1.5rem auto;
-	max-width:40em;
-	margin-left: calc(50% - 5.75em);
-	font-size: 1.9rem;
-	position:relative;
-	top: 44px;
+	font-weight: normal;
+	line-height: 1.3em;
+	margin: 1.3rem;
+	height: 1em;
+	top: 98px;
+	left:23px;
+  position: absolute;
+	font-size: 14rem;
+	text-shadow:  5px 5px 10px #7b303e;
+	font-family: libre Baskerville, sans-serif;
+	color: #000;
+}
+strong{
+	text-align: center;
+	font-size: 4.5em;
+	color: #000;
+	text-shadow:  4px 4px 10px #7b303e;
+	position: relative;
+	bottom:60px;
+	left:90px;
+	font-family: 'raleway 'sans-serif;
 }
 .margin{
 	margin-left: calc(50% - 20em);
