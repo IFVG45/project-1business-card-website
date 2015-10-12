@@ -335,19 +335,10 @@ h1 {
 		text-align: center;
 	}
 
-
-
-
 }
 @media print{
 .img {
 	display: none;
-}
-main p {
-	min-width: 30em;
-	img {
-width: 78%;
-float: left;
 }
 
 h1 {
