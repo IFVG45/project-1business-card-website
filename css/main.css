@@ -24,6 +24,7 @@ body{
 
 p{
 	color:#fff;
+	font-size: 1em;
 }
 
 .img {
@@ -38,24 +39,15 @@ h1 {
 	line-height: 1.3em;
 	margin: 1.3rem;
 	height: 1em;
-	top: 98px;
+	top: 55px;
 	left:32px;
   position: absolute;
-	font-size: 8rem;
+	font-size: 6rem;
 	text-shadow:  5px 5px 10px #7b303e;
 	font-family: libre Baskerville, sans-serif;
 	color: #000;
 }
-strong{
-	text-align: center;
-	font-size: 4.5em;
-	color: #000;
-	text-shadow:  4px 4px 10px #7b303e;
-	position: relative;
-	bottom:60px;
-	left:90px;
-	font-family: 'raleway 'sans-serif;
-}
+
 
 h2{
 	text-align: center;
@@ -65,20 +57,43 @@ h2{
 
 }
 
-.desc div{
-	display: inline-block;
-	width: 30%;
-	vertical-align: top;
+.dad{
+  background-image: url("../images/dad.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 320px;
+  position: relative;
 }
-.desc{
-	padding: 0;
+
+
+.lights{
+  background-image: url("../images/lights.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 320px;
+  position: relative;
 }
-.desc dt{
-	font-weight: bold;
+
+.wine{
+  background-image: url("../images/wine.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 320px;
+  position: relative;
 }
-.desc dl, .desc dd{
-	margin: 0;
+
+.snake{
+  background-image: url("../images/snake.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 320px;
+  position: relative;
 }
+
 
 main{
 	padding:0 3% 3% 3%;
@@ -99,16 +114,23 @@ main p{
 	color:#000;
 }
 
+.icons{
+  padding-top: 70px;
+  padding-bottom: 20px;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
 
-.logo{
- width: 40%;
- float: right;
- margin-top: 10px;
- padding: 0 .5em .5em 0;
+.icons a{
+  color: black;
 }
-.logo2{
- display: none;
+
+div.icons span{
+  display: table-cell;
+  text-align: center;
 }
+
 
 h3{
 	text-align: center;
@@ -129,6 +151,19 @@ h3{
 	margin: 0 auto;
 }
 
+.footer{
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: black;
+  color: white;
+}
+
+.footer a{
+  color: white;
+}
 
 @media only screen and (min-width: 36em){
 html{
@@ -154,17 +189,7 @@ h1 {
 	font-family: libre Baskerville, sans-serif;
 	color: #fff;
 }
-strong{
-	font-weight: bold;
-	text-align: center;
-	font-size: 5em;
-	color: #fff;
-	text-shadow:  4px 4px 10px #7b303e;
-	position: relative;
-	bottom:114px;
-	left:204px;
-	font-family: 'raleway 'sans-serif;
-}
+
 
 section#contact img{
 		display: inline-block;
@@ -175,16 +200,6 @@ section#contact img{
   border: 0;
 
 	}
-
-	section#contact nav{
-
-
-		max-width: 100%;
-		display: block;
-		margin: 0 auto;
-	}
-
-
 
 header img{
 width: 125px;
@@ -199,38 +214,6 @@ margin: 2em 0 0 0;
 margin-top: 2.35em;
 }
 
-.divider1{
-	width: 50%;
-	margin: 0;
-	float: left;
-	clear: left;
-	}
-	.divider2{
-	width: 47%;
-	margin: 0;
-	float: right;
-	clear:right;
-	}
-	.divider3{
-	width: 47%;
-	margin: 0;
-	float:left;
-	clear:left;
-	}
-
-	.divider4{
-	width: 47%;
-	margin: 0;
-	float: right;
-	clear:right;
-	}
-
-.desc div{
-display: inline-block;
-width: 100%;
-vertical-align: top;
-}
-
 h3{
 	text-align: center;
 	font-size: 1.7em;
@@ -242,7 +225,30 @@ h3{
 	margin:4%;
 }
 
-
+.dad{
+		 float: left;
+		 width: 50%;
+		 overflow: auto;
+	 }
+	 .lights{
+		 float: right;
+		 width: 50%;
+		 overflow: auto;
+	 }
+	 .wine{
+		 float: left;
+		 width: 50%;
+		 overflow: auto;
+	 }
+	 .snake{
+		 float: right;
+		 width: 50%;
+		 overflow: auto;
+	 }
+	 .icons{
+		 padding-left: 50px;
+		 padding-right: 50px;
+	 }
 
 @media only screen and (min-width: 62.5em){
 .img {
@@ -264,61 +270,47 @@ h1 {
 	line-height: 1.3em;
 	margin: 1.3rem;
 	height: 1em;
-	top: 98px;
-	left:23px;
+	top: 123px;
+	left:96px;
   position: absolute;
-	font-size: 14rem;
+	font-size: 10.5rem;
 	text-shadow:  5px 5px 10px #7b303e;
 	font-family: libre Baskerville, sans-serif;
 	color: #000;
-}
-strong{
-	text-align: center;
-	font-size: 4.5em;
-	color: #000;
-	text-shadow:  4px 4px 10px #7b303e;
-	position: relative;
-	bottom:60px;
-	left:90px;
-	font-family: 'raleway 'sans-serif;
 }
 .margin{
 	margin-left: calc(50% - 20em);
 }
 
-	.divider1{
-		width: 10%;
-		margin: 0;
-		float: left;
-		clear: left;
-		}
-		.divider2{
-		width: 20%;
-		margin: 0;
-		float: left;
-		clear:right;
-		}
-		.divider3{
-		width: 10%;
-		margin: 0;
-		float:right;
-		clear:right;
-		}
-
-		.divider4{
-		width: 10%;
-		margin: 0;
-		float: right;
-		clear:right;
-		}
-
-
-			#skills ol li{
-				width: calc(25% - 1.3rem);
-			}
-	}
-
-
+.snake{
+	float: left;
+	width: 20%;
+	overflow: auto;
+}
+.wine{
+	float: right;
+	width: 20%;
+	overflow: auto;
+}
+.lights{
+	float: left;
+	width: 20%;
+	overflow: auto;
+}
+.dad{
+	float: right;
+	width: 20%;
+	overflow: auto;
+}
+  .snake, .dad,.lights,.wine{
+    display:inline-block;
+    position: relative;
+    margin: 0px;
+    float:left;
+    width:25%;
+    height:400px;
+    background-color: lightgrey;
+  }
 
 	/* CONTACT section */
 
@@ -328,7 +320,7 @@ strong{
 
 	.mailto{
 		display: block;
-		color: #666;
+		color: #000;
 		background-color: #fff;
 		padding: .65rem;
 		width: calc(100% - 1.5rem);
@@ -344,25 +336,6 @@ strong{
 	}
 
 
-
-
-	section#contact img{
-		width: 33%;
-		float: left;
-		padding: .65rem;
-	}
-
-
-	section#contact nav{
-		display: block;
-		width: 100%;
-		max-width: 25rem;
-		padding: .65rem 0;
-		margin: 0 auto;
-		padding-bottom: 1.3rem;
-		overflow: hidden;
-
-	}
 
 
 }
@@ -384,28 +357,6 @@ h1 {
   margin: 1em;
   position: fixed;
   top: 350px;
-}
-
-.p1 {
-  float: left;
-  width: 50%;
-  margin: 1em;
-  position: fixed;
-  left: 6px;
-  bottom: 0px;
-}
-
-.p2 {
-  float: right;
-  width: 50%;
-  margin: 1em;
-  position: fixed;
-  left: 310px;
-  bottom: 20px;
-}
-
-footer {
-  display: none;
 }
 
 }
