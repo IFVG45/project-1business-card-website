@@ -33,6 +33,7 @@ p{
 	margin: 1.3rem;
 	background-size: cover;
 	background-position: 0;
+	border: 0;
 }
 h1 {
 	font-weight: normal;
